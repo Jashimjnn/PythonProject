@@ -1,0 +1,11 @@
+from math import *
+s = input()
+ss = s.split()
+a = int(ss[0])
+b = int(ss[1])
+f = floor(a / b)
+c = ceil(a / b)
+r = round(.001+ a / b)
+print("floor", a, "/", b, "=", f)
+print("ceil", a, "/", b, "=", c)
+print("round", a, "/", b, "=", r)

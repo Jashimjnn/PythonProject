@@ -1,0 +1,5 @@
+s = input()
+ss = s.split()
+a = int(ss[0])
+b = int(ss[1])
+print((a%10+b%10))

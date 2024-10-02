@@ -1,0 +1,1 @@
+{"name":"Local: cp","url":"d:\\PythonProject\\Basic\\cp.cpp","tests":[{"id":1722266539894,"input":"5\n2 5 3 4 1","output":"3"},{"id":1722266852985,"input":"4\n1 2 3 4","output":"4"},{"id":1722266861190,"input":"3\n2 1 3","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PythonProject\\Basic\\cp.cpp","group":"local","local":true}

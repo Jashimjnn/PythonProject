@@ -1,0 +1,10 @@
+a = input()
+n = a.split()
+b = int(n[0])
+c = int(n[1])
+d = b+c
+e = b*c
+f = b-c
+print(b,"+",c,"=",d)
+print(b,"*",c,"=",e)
+print(b,"-",c,"=",f)
