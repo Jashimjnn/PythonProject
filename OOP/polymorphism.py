@@ -32,13 +32,13 @@ class Goat(Animal):
     
 
 don = Cat('Real Don')
-don.make_sound()
+#don.make_sound()
 
 shepard = Dog('Local Shephard')
-shepard.make_sound()
+#shepard.make_sound()
 
 mess = Goat('L M')
-mess.make_sound()
+#mess.make_sound()
 
 less = Goat('gora gori')
 

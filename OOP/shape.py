@@ -19,3 +19,5 @@ class Circle(Shape):
 
     def area(self):
         return pi * self.radius*self.radius
+phitron = Circle('circle',5)
+print(phitron.area())
