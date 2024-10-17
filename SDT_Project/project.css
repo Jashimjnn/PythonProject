@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(198, 195, 195);
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+}
+.benner-img{
+    width: 350px;
+}
+.benner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* background-image: url('banner.png');
+    color: white; */
+}
+.benner-left{
+    width: 400px;
+    line-height: 1.5;
+}
+.btn{
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.hire-btn{
+    background-color: rgb(47, 18, 74);
+}
+.project-btn{
+    background-color: rgb(43, 73, 226);
+}
+.title{
+    font-size: 40px;
+}
+.Services-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.service-card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-img{
+    width: 230px;
+}
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: gray;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.service-description{
+    margin: 10px;
+}
+.Services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.service-card-btn,a{
+    text-decoration: none;
+    color: white;
+}
+.Contact-us{
+    padding: 50px;
+    width: 500px;
+    box-shadow: 4px 4px 8px gray;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;
+}
+.messege{
+    width: 40%;
+    height: 100px;
+    margin-top: 15px;
+}
+.submit-btn{
+    width: 25%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
